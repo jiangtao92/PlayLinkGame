@@ -150,15 +150,18 @@
     <ClInclude Include="CalLinkGame.h" />
     <ClInclude Include="CMouseControl.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="Perceptual_hash.h" />
     <ClInclude Include="safeQueue.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="timer.hpp" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CalLinkGame.cpp" />
     <ClCompile Include="CMouseControl.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Perceptual_hash.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

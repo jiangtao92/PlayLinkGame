@@ -12,7 +12,7 @@ CalLinkGame::CalLinkGame(const std::vector<std::vector<int>>& board, int rows, i
 	: board_(board)
 	, rows_(rows)
 	, colums_(column)
-	, mouseControl_(250)
+	, mouseControl_(150)
 {
 
 }
@@ -67,9 +67,9 @@ bool CalLinkGame::Cal(std::vector<std::pair<Point, Point>> &ret) {
 			}
 		}
 		vec.swap(tmp);
-		cout << "size = " << vec.size() << endl;
+		//cout << "size = " << vec.size() << endl;
 		if (!flag) {
-			_tprintf(_T("need refresh the game now!"));
+			//_tprintf(_T("need refresh the game now!"));
 			break;
 		}
 	}
